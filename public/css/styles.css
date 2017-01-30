@@ -1,0 +1,51 @@
+ 
+#permission-panel ul li label{
+    cursor: pointer !important;
+}
+.main-header-permissions  { 
+    background: rgb(195, 195, 195);
+}
+.main-header-permissions label  {
+    color: black;
+}
+
+.input-error{
+    border-color: red;
+}
+.input-loading-img{
+    position: absolute;
+    width: 13px;
+    display: none;
+    margin: -5px -5px;
+}
+.popup-list{
+    position: absolute;
+    z-index: 99;
+    width: 86%;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.42);
+    cursor: pointer;
+}
+.selected{
+    background: rgb(231, 231, 231);
+}
+.background-error{
+    background: rgb(255, 233, 233)!important;
+    font-weight: 900;
+}
+.background-success{
+    background: rgb(225, 255, 230) !important;
+    font-weight: 900;
+}
+
+.form-inline .form-group{
+    margin: 5px 0px 6px 5px;
+}
+.cus-image{
+    margin: 5px 5px  ;
+}
+.delete-img{
+    position: absolute;
+    z-index: 88;
+    margin-top: 20px;
+    margin-left: 20px;
+}
